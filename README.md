@@ -29,8 +29,14 @@ Time spent: **8** hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: <img src= "C:\Users\Noodly\Desktop\Week 7-Exploit 1 Real.gif">
+  - [X] GIF Walkthrough: <img src= "https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%201%20Real.gif">
   - [ ] Steps to recreate: 
+  <ol>
+  <li> Create a  new page. </li>
+  <li> Add a title, and any text yo uwant to include.</li>
+  <li> Find an image and paste it onto the page.</li>
+  <li> Add a cross site scripting exploit within the img src tags</li>
+  </ol>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     
