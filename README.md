@@ -18,21 +18,23 @@ Template:
 
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **at least 3 vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+1. (Required) Cross Site Scripting
+  - [X] Summary: 
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] GIF Walkthrough: <img src= "C:\Users\Noodly\Desktop\Week 7-Exploit 1 Real.gif">
+  - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
+    
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
