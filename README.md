@@ -16,8 +16,10 @@ Time spent: **8** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.6.1
     
-  - [X] GIF Walkthrough: <img src= "https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%201%20Real.gif">
-  - [X] Steps to recreate: 
+  - [X] GIF Walkthrough:
+    <img src= "https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%201%20Real.gif">
+  
+  - [X] Steps to recreate: 
   <ol>
   <li> Create a  new page. </li>
   <li> Add a title, and any text you want to include.</li>
@@ -25,7 +27,7 @@ Time spent: **8** hours spent in total
   <li> Add a cross site scripting exploit within the img src tags</li>
   </ol>
   
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/image.php)
     
     
