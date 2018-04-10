@@ -38,18 +38,15 @@ Time spent: **11** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: Unknown
     
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%20Real%202.gif?raw=true
+    
   - [X] Steps to recreate: 
     <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li> Navigate to the login page.</li>
+  <li> Enter 'admin' or another known username into the user field.</li>
+  <li> Insert an incorrect password. Take note of the error message.</li>
+  <li> Insert a username that does not exist in the database.</li>
+  <li> Insert an arbitrary value into the password field. Take note of rhe error message.</li>
   </ol>
     
   - [X] Affected source code:
