@@ -1,70 +1,96 @@
 # web-security
 Week 7
 
-Need:
-GitHub Project URL
-GIF or MP4 Video URL (Drag a GIF here to upload)
-Hours Spent
-Notes (Optional)
-
-A small writeup indicating the steps you used to recreate
-The types / classes of vulnerabilities involved and any related CVE identifiers
-Identify affected versions and patches
-Links to the source code, where possible
-A screen cap
-
-
-Template:
-
 # Project 7 - WordPress Pentesting
 
-Time spent: **8** hours spent in total
+Time spent: **11** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **at least 3 vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) Cross Site Scripting
+1. WordPress 2.5-4.6 - Authenticated Stored Cross-Site Scripting via Image Filename
+  
+  - [X] Summary: 
+    - Vulnerability types: Cross Site Scripting
+    - Tested in version: 4.2
+    - Fixed in version: 4.6.1
+    
+  - [X] GIF Walkthrough:
+    <img src= "https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%201%20Real.gif">
+  
+  - [X] Steps to recreate: 
+  <ol>
+  <li> Create a  new page. </li>
+  <li> Add a title, and any text you want to include.</li>
+  <li> Find an image and paste it onto the page.</li>
+  <li> Add a cross site scripting exploit within the img src tags</li>
+  </ol>
+  
+  - [X] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/image.php)
+    
+    
+2. User Enumeration
+
+  - [X] Summary: 
+    - Vulnerability types:User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version: Unknown
+    
+  - [X] GIF Walkthrough: 
+  - [X] Steps to recreate: 
+    <ol>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  </ol>
+    
+  - [X] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
+3. 
   - [X] Summary: 
     - Vulnerability types:
-    - Tested in version:
+    - Tested in version: 4.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: <img src= "C:\Users\Noodly\Desktop\Week 7-Exploit 1 Real.gif">
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     
+  - [X] GIF Walkthrough: 
+  - [X] Steps to recreate: 
+    <ol>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  </ol>
     
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 
-1. (Optional) Vulnerability Name or ID
+4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
+    
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+    
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
