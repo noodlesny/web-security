@@ -3,7 +3,7 @@ Week 7
 
 # Project 7 - WordPress Pentesting
 
-Time spent: **8** hours spent in total
+Time spent: **11** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **at least 3 vulnerabilities** affecting an old version of WordPress
 
@@ -31,12 +31,12 @@ Time spent: **8** hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/image.php)
     
     
-2. 
+2. User Enumeration
 
   - [X] Summary: 
-    - Vulnerability types:
-    - Tested in version:4.2
-    - Fixed in version: 
+    - Vulnerability types:User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version: Unknown
     
   - [X] GIF Walkthrough: 
   - [X] Steps to recreate: 
