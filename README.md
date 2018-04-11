@@ -58,18 +58,11 @@ Time spent: **11** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.6.2
     
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: <img src="https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%203.gif">
   - [X] Steps to recreate: 
     <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Go to the comment section of a post.</li>
+  <li>Enter a link including a cross site scripting exploit and submit.</li>
   </ol>
     
   - [X] Affected source code:
@@ -110,7 +103,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+
 
 ## License
 
