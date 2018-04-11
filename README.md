@@ -38,7 +38,7 @@ Time spent: **11** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: Unknown
     
-  - [X] GIF Walkthrough: https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%20Real%202.gif?raw=true
+  - [X] GIF Walkthrough: <img src= "https://github.com/noodlesny/web-security/blob/master/myGIFS/Week%207-Exploit%20Real%202.gif">
     
   - [X] Steps to recreate: 
     <ol>
@@ -54,9 +54,9 @@ Time spent: **11** hours spent in total
 
 3. 
   - [X] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.6.2
     
   - [X] GIF Walkthrough: 
   - [X] Steps to recreate: 
